@@ -28,7 +28,7 @@ print(az.describe())
 # Select all data so far in 2020
 az_2020 = az.loc['2020-01-06':'2020-12-14']
 
-# Print price of facebook on the 14th July
+# Print price of Amazon on the 14th July
 print(az.loc['2020-07-14'])
 
 # print the opening price of the first row
